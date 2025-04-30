@@ -1,0 +1,248 @@
+body{
+    background-color:rgb(211, 211, 211);
+    margin:0 0 50px 0;
+    font-style: italic;
+}
+header{
+    padding: 10px ;
+    text-align: center;
+    background-color: rgb(19, 66, 109);
+    color: white;  
+}
+
+h1{
+    margin: 20px 0 10px 5px;
+    padding:7px;
+}
+
+.About p{
+    margin: 0 0 30px 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.Home img{
+    width: 100%; 
+    margin:0;
+    height:800px;
+    
+}
+.Contact{
+    margin-bottom: 20px;
+}
+
+.Contact i{
+    color:  blue;
+    margin-right: 5px;
+}
+
+nav{
+    background-color:rgb(54, 151, 196);
+    padding: 5px;
+    margin:0;
+    border-radius: 15px;
+    font-weight: bold;
+    width:100%;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    
+}
+
+nav a:hover{
+    color: gold;
+    background-color: black;
+}
+
+
+
+@media(max-width:768px){
+    h1{
+        margin: 20px 0 5px 5px;
+        padding:7px;
+    }
+    nav{
+        background-color: rgb(73, 169, 248);
+        position: absolute;
+        top:8px;
+        left:7px;
+        width:7%;
+        padding: 5px;
+    }
+    .nav-toggle span{
+        height: 3px;
+        margin: 4px 0;
+        text-align: center;
+        background-color: white;
+    
+    }
+   
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;   
+        top: 50px;
+        left:0px;
+        background-color: lightgreen;
+        width:200px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .nav-links.active{
+        display: flex;
+    }
+    .nav-toggle{
+        width: 30px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .Skills{
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 40px;
+       
+    }
+    .Web-Development{
+        min-width:425px;
+    }
+    .Design-Principles{
+        min-width:425px;
+    }
+    .Development-Tools{
+        min-width:425px;
+    }
+    .Languages{
+        min-width:425px;
+    }
+    .Soft-Skills{
+        min-width:425px;
+    }
+    .Other-Programming-Languages{
+        min-width:425px;
+    }
+    .libraries-in-Python{
+        min-width:425px;
+    }
+    .Courses-and-Projects{
+        display:flex;
+        flex-wrap: wrap;
+        min-width:850px;
+    }
+  
+}
+
+                                     
+
+/*
+.linkedin-Email a{
+    font-weight: bold;
+    text-decoration: none;
+    background-color:#173b6c;
+    color:white;
+    border-radius: 50px;
+    padding: 10px;
+}
+.linkedin-Email a:hover{
+    background-color: #1abc9c;
+}
+*/
+
+.linkedin-Email{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px;
+  
+}
+
+.linkedin-Email a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+}
+
+
+.Skills{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5px;
+   text-align: center;
+   margin-bottom: 30px;
+ 
+}
+
+.Skills p{
+   font-size: 17px;
+}
+
+ 
+.Web-Development{
+    height: 125px;
+    width: 29%;
+    border: 3px solid rgb(19, 66, 109);
+    padding: 10px;
+    margin:10px;
+    
+}
+.Design-Principles{
+    height: 125px;
+    width: 29%;
+    border: 3px solid  rgb(19, 66, 109);
+    padding: 10px;
+    margin:10px;
+}
+.Development-Tools{
+    height: 125px;
+    width: 30%;
+    border: 3px solid  rgb(19, 66, 109);
+    padding: 10px;
+    margin:10px;
+}
+.Languages{
+    height: 125px;
+    width: 30%;
+    border: 3px solid  rgb(19, 66, 109);
+    padding: 10px;
+    margin:10px;
+}
+.Soft-Skills{
+    height: 125px;
+    width: 60%;
+    border: 3px solid  rgb(19, 66, 109);
+    padding: 10px;
+    margin:10px;
+}
+.Other-Programming-Languages{
+    height: 125px;
+    width: 30%;
+    border: 3px solid  rgb(19, 66, 109);
+    padding: 10px;
+    margin:10px;
+}
+.libraries-in-Python{
+    height: 125px;
+    width: 30%;
+    border: 3px solid rgb(19, 66, 109);
+    padding: 10px;
+    margin:10px;
+}
+.Courses-and-Projects{
+    display: flex;
+    margin-bottom: 40px;
+    padding: 10px;
+    text-align: center;
+    gap:20px;
+    
+}
+
+.Courses-and-Projects p{
+    font-size: 17px;
+ }
+

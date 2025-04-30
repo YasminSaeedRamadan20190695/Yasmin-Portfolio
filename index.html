@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Yasmin Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1>Yasmin Saeed Ramadan</h1>
+            <h3>Front-End Web Developer</h3>
+        </div>
+    </header>
+    <nav>
+       <div class="nav-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+       </div>
+       <div class="nav-links" id="navlinks">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Courses-and-Projects">Courses and Projects</a>
+            <a href="#Find-me-on">Find me on</a>
+       </div>
+    </nav>
+
+    <section>
+        <div class="Home" id="Home">
+            <img src="picture2.jpg">
+        </div>
+    </section>
+    
+    <section>     
+        <div class="About" id="About">
+            <h1 style="margin-bottom: 15px;">About</h1>
+            <p>I’m a fresh graduate from the Faculty of Computers and Artificial Intelligence, Cairo University. 
+                I learned HTML and CSS, and did some projects during my studies. I’m interested in front-end development and want to improve my skills. 
+                I’m looking for a chance to work or train in this field.</p>
+        </div>
+    </section>
+    <hr>
+    <section id="Contact">   
+        <h1 style="margin-bottom: 15px;">Contact</h1>
+        <div class="Contact">
+            <div style="padding: 10px;"><i class="fa fa-chevron-right"></i>  <strong>Phone:</strong> <span>01153718354</span></div>
+            <div style="padding: 10px;"><i class="fa fa-chevron-right"></i>  <strong>City:</strong> <span>Al Nuzha, Al Salam City</span></div>
+            <div style="padding: 10px;"><i class="fa fa-chevron-right"></i>  <strong>Email:</strong> <span>yasmsaeed@gmail.com</span></div>
+            <div style="padding: 10px;"><i class="fa fa-chevron-right"></i>  <strong>Degree:</strong> <span>Bachelor’s</span></div>
+            <div style="padding: 10px;"><i class="fa fa-chevron-right"></i>  <strong>Graduation</strong> <span>2024</span></div>
+        </div>
+    </section>
+    <hr>
+    <section id="Skills">
+        <h1 style="margin-bottom: 15px;">Skills</h1>
+        <div class="Skills">
+            <div class="Web-Development">
+                <h3>Web Development</h3>
+                <hr>
+                <p>HTML, CSS</p>
+            </div>
+            <div class="Design-Principles">
+                <h3>Design Principles</h3>
+                <hr>
+                <p>Responsive Design, Layout Techniques</p>
+            </div>
+            <div class="Development-Tools">
+                <h3>Development Tools</h3>
+                <hr>
+                <p>VS Code, DevTools, Jupyter Notebook</p>
+            </div>
+            <div class="Languages">
+                <h3>Languages</h3>
+                <hr>
+                <p>Arabic(Native), English(Intermediate/Advanced)</p>
+            </div>
+            <div class="Soft-Skills">
+                <h3>Soft Skills</h3>
+                <hr>
+                <p>Teamwork, Problem-Solving, Time Management, Self-Learning, Communication Skills</p>
+            </div>
+            <div class="Other-Programming-Languages">
+                <h3>Other Programming Languages</h3>
+                <hr>
+                <p>Python, Oop, Java, C++, SQL</p>
+            </div>
+            <div class="libraries-in-Python">
+                <h3>Libraries In Python</h3>
+                <hr>
+                <p>Pandas, NumPy, Matplotlib</p>
+            </div>    
+        </div>
+    </section>
+    
+    <hr>
+    
+    <section id="Courses-and-Projects"> 
+        <h1 style="margin-bottom: 15px;">Courses and Projects</h1>
+        <div class="Courses-and-Projects">
+            <div style="border: 3px solid rgb(19, 66, 109); padding: 10px;  width:50%;">
+                <h3>Front-End Development Course</h3> 
+                <hr>
+                <P>Covered HTML, CSS, basic design Principles, and layout Techniques.</P>
+            </div>
+            <div style="border: 3px solid rgb(19, 66, 109); padding: 10px; width:50%;">
+                <h3>College Projects using HTML & CSS</h3>
+                <hr>
+                <P>Created multi-page websites for academic Projects.</P>
+                <P>Designed responsive layouts using Flexbox and Media Queries.</P>
+                <P>Built Personal Portfolio page as a class assignment.</P>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="Find-me-on" id="Find-me-on">
+        <h1 style="margin-bottom: 15px;">Find me on</h1>
+        <div class="linkedin-Email">
+            <a href="https://www.linkedin.com/in/yasmin-saeed-33834a269" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:yasmsaeed@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+            <a href="https://github.com/in/YasminSaeedRamadan20190695"target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </section>
+    <script>                     
+        function toggleMenu(){
+            var nav = document.getElementById('navlinks');
+            nav.classList.toggle('active'); 
+        }
+    </script>
+</body>
+</html>

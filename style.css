@@ -64,6 +64,16 @@ nav a:hover{
         margin: 20px 0 5px 5px;
         padding:7px;
     }
+    .About p{
+        margin: 0 0 30px 5px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .Home img{
+        width: 100%; 
+        margin:0;
+        height:800px;
+    }
     nav{
         background-color: rgb(73, 169, 248);
         position: absolute;
@@ -111,35 +121,35 @@ nav a:hover{
        
     }
     .Web-Development{
-        min-width:430px;
+        min-width:424px;
     }
     .Design-Principles{
-        min-width:430px;
+        min-width:424px;
     }
     .Development-Tools{
-        min-width:430px;
+        min-width:424px;
     }
     .Languages{
-        min-width:430px;
+        min-width:424px;
     }
     .Soft-Skills{
-        min-width:430px;
+        min-width:424px;
     }
     .Other-Programming-Languages{
-        min-width:430px;
+        min-width:424px;
     }
     .libraries-in-Python{
-        min-width:430px;
+        min-width:424px;
     }
     .Courses-and-Projects{
         display:flex;
         flex-wrap: wrap;
     }
     .Front-End{
-        min-width:430px;
+        min-width:424px;
     }
     .College-Projects{
-        min-width:430px;
+        min-width:424px;
     }
   
 }

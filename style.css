@@ -111,35 +111,35 @@ nav a:hover{
        
     }
     .Web-Development{
-        min-width:425px;
+        min-width:430px;
     }
     .Design-Principles{
-        min-width:425px;
+        min-width:430px;
     }
     .Development-Tools{
-        min-width:425px;
+        min-width:430px;
     }
     .Languages{
-        min-width:425px;
+        min-width:430px;
     }
     .Soft-Skills{
-        min-width:425px;
+        min-width:430px;
     }
     .Other-Programming-Languages{
-        min-width:425px;
+        min-width:430px;
     }
     .libraries-in-Python{
-        min-width:425px;
+        min-width:430px;
     }
     .Courses-and-Projects{
         display:flex;
         flex-wrap: wrap;
     }
     .Front-End{
-        min-width:425px;
+        min-width:430px;
     }
     .College-Projects{
-        min-width:425px;
+        min-width:430px;
     }
   
 }

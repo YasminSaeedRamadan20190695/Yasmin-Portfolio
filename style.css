@@ -65,24 +65,19 @@ nav a:hover{
         margin: 20px 0 5px 5px;
         padding:7px;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> b351eef (Adding a To-Do List project to the Portfolio)
     .About p{
         margin: 0 0 30px 5px;
         padding: 5px;
         font-size: 20px;
     }
-<<<<<<< HEAD
+
     .Home img{
         width: 100%; 
         margin:0;
         height:800px;
     }
-=======
 
->>>>>>> b351eef (Adding a To-Do List project to the Portfolio)
     nav{
         background-color: rgb(73, 169, 248);
         position: absolute;
@@ -131,27 +126,7 @@ nav a:hover{
        
     }
     .Web-Development{
-<<<<<<< HEAD
-        min-width:418px;
-    }
-    .Design-Principles{
-        min-width:418px;
-    }
-    .Development-Tools{
-        min-width:418px;
-    }
-    .Languages{
-        min-width:418px;
-    }
-    .Soft-Skills{
-        min-width:418px;
-    }
-    .Other-Programming-Languages{
-        min-width:418px;
-    }
-    .libraries-in-Python{
-        min-width:418px;
-=======
+
         min-width:350px;
     }
     .Design-Principles{
@@ -171,27 +146,14 @@ nav a:hover{
     }
     .libraries-in-Python{
         min-width:350px;
->>>>>>> b351eef (Adding a To-Do List project to the Portfolio)
+
     }
     .Courses-and-Projects{
         display:flex;
         flex-wrap: wrap;
-<<<<<<< HEAD
-    }
-    .Front-End{
-        min-width:418px;
-    }
-    .College-Projects{
-        min-width:418px;
-    }
-    .linkedin-Email{
-        display: flex;
-        justify-content: center;
-        gap: 100px;
-        padding: 10px;
-=======
+
         margin-right: 10px;
->>>>>>> b351eef (Adding a To-Do List project to the Portfolio)
+
     }
     .Front-End{
         min-width:350px;

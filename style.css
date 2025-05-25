@@ -1,13 +1,15 @@
 body{
     background-color:rgb(211, 211, 211);
-    margin:0 0 50px 0;
+    margin:0 0 45px 0;
     font-style: italic;
+    
 }
 header{
     padding: 10px ;
     text-align: center;
     background-color: rgb(19, 66, 109);
     color: white;  
+    margin: 0;
 }
 
 h1{
@@ -58,22 +60,29 @@ nav a:hover{
 }
 
 
-
 @media(max-width:768px){
     h1{
         margin: 20px 0 5px 5px;
         padding:7px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> b351eef (Adding a To-Do List project to the Portfolio)
     .About p{
         margin: 0 0 30px 5px;
         padding: 5px;
         font-size: 20px;
     }
+<<<<<<< HEAD
     .Home img{
         width: 100%; 
         margin:0;
         height:800px;
     }
+=======
+
+>>>>>>> b351eef (Adding a To-Do List project to the Portfolio)
     nav{
         background-color: rgb(73, 169, 248);
         position: absolute;
@@ -118,9 +127,11 @@ nav a:hover{
         text-align: center;
         font-style: italic;
         margin-bottom: 40px;
+        
        
     }
     .Web-Development{
+<<<<<<< HEAD
         min-width:418px;
     }
     .Design-Principles{
@@ -140,10 +151,32 @@ nav a:hover{
     }
     .libraries-in-Python{
         min-width:418px;
+=======
+        min-width:350px;
+    }
+    .Design-Principles{
+        min-width:350px;
+    }
+    .Development-Tools{
+        min-width:350px;
+    }
+    .Languages{
+        min-width:350px;
+    }
+    .Soft-Skills{
+        min-width:350px;
+    }
+    .Other-Programming-Languages{
+        min-width:350px;
+    }
+    .libraries-in-Python{
+        min-width:350px;
+>>>>>>> b351eef (Adding a To-Do List project to the Portfolio)
     }
     .Courses-and-Projects{
         display:flex;
         flex-wrap: wrap;
+<<<<<<< HEAD
     }
     .Front-End{
         min-width:418px;
@@ -156,9 +189,24 @@ nav a:hover{
         justify-content: center;
         gap: 100px;
         padding: 10px;
+=======
+        margin-right: 10px;
+>>>>>>> b351eef (Adding a To-Do List project to the Portfolio)
     }
-  
+    .Front-End{
+        min-width:350px;
+    }
+    .College-Projects{
+        min-width:350px;
+        
+    }
+
+    .To-Do_List{
+        min-width:350px;
+    }
+
 }
+
 
                                      
 
@@ -180,7 +228,8 @@ nav a:hover{
     display: flex;
     justify-content: center;
     gap: 100px;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
   
 }
 
@@ -198,6 +247,7 @@ nav a:hover{
    gap: 5px;
    text-align: center;
    margin-bottom: 30px;
+   margin: 5px;
  
 }
 
@@ -262,6 +312,7 @@ nav a:hover{
     padding: 10px;
     text-align: center;
     gap:20px;
+    margin: 5px;
     
 }
 
